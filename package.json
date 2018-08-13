@@ -1,0 +1,29 @@
+{
+  "name": "siwi-ts-npm-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "rollup-typescript": "^1.2.0",
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siwilizhao/ts-npm-quickstart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siwilizhao/ts-npm-quickstart/issues"
+  },
+  "homepage": "https://github.com/siwilizhao/ts-npm-quickstart#readme"
+}
