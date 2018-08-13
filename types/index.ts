@@ -1,19 +1,15 @@
 import { Promise } from "bluebird";
 
-interface UtilsInterface {
-  wait(duration: Number): Promise<boolean>;
+interface InterfaceUtils {
+  wait(duration: number): Promise<boolean>;
 }
 
-class Utils implements UtilsInterface {
-  constructor() {}
-  wait(duration: Number) {
+class Utils implements InterfaceUtils {
+  public wait(duration: number) {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(true);
       }, duration);
-    }).catch(error => {
-      console.log(error);
-      return false;
     });
   }
 }
