@@ -7,13 +7,15 @@
     "lib": "lib"
   },
   "dependencies": {
+    "bluebird": "^3.5.1"
   },
   "devDependencies": {
+    "@types/ioredis": "^3.2.14",
     "rollup-typescript": "^1.2.0",
     "typescript": "^3.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",

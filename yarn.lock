@@ -2,6 +2,21 @@
 # yarn lockfile v1
 
 
+"@types/bluebird@*":
+  version "3.5.23"
+  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.23.tgz#e805da976b76892b2b2e50eec29e84914c730670"
+
+"@types/ioredis@^3.2.14":
+  version "3.2.14"
+  resolved "https://registry.yarnpkg.com/@types/ioredis/-/ioredis-3.2.14.tgz#c7594cedc2b3618bb1b1358e635c9271b8cb3666"
+  dependencies:
+    "@types/bluebird" "*"
+    "@types/node" "*"
+
+"@types/node@*":
+  version "10.5.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.8.tgz#6f14ccecad1d19332f063a6a764f8907801fece0"
+
 arr-diff@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/arr-diff/download/arr-diff-2.0.0.tgz#8f3b827f955a8bd669697e4a4256ac3ceae356cf"
@@ -15,6 +30,10 @@ arr-flatten@^1.0.1:
 array-unique@^0.2.1:
   version "0.2.1"
   resolved "http://registry.npm.taobao.org/array-unique/download/array-unique-0.2.1.tgz#a1d97ccafcbc2625cc70fadceb36a50c58b01a53"
+
+bluebird@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
 
 braces@^1.8.2:
   version "1.8.5"
